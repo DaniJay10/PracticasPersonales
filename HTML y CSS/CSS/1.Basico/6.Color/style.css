@@ -1,0 +1,13 @@
+.Box{
+ height:80px;
+ width: 80px;
+ background-color: rgb(44, 153, 138);
+ margin: 10px;
+}
+
+.Box2{
+    height:80px;
+    width: 80px;
+    background-color: #b401ab;
+    margin: 10px;
+   }

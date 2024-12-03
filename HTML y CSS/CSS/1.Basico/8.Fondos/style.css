@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+}
+
+.div1{
+    width: 110px;
+    height: 120px;
+    background-color: aqua;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight:bold;
+    margin: 20px;
+}
+
+.div2{
+    background: url(https://th.bing.com/th/id/OIP.omp3Lii6JDVp2VLgPhUMMQHaEK?rs=1&pid=ImgDetMain) center / cover fixed blue;
+    width: 210px;
+    height: 120px;
+}
+
+.div3{
+    margin: 20px;
+    width: 210px;
+    height: 120px;
+    background: linear-gradient(blue, red);
+}
+
+.div4{
+    margin: 20px;
+    width: 210px;
+    height: 120px;
+    background: (blue, red);
+}

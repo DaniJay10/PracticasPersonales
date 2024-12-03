@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.Box{
+ height:80px;
+ width: 80px;
+ background-color: blue;
+ margin: 10px;
+}
+
+.boxDefault{
+    box-sizing: content-box;
+    padding:25px;
+    border: 10px solid black;
+}
+.boxNew{
+    box-sizing: content-box;
+    padding: 20px;
+    border: 50px solid rosybrown;
+}

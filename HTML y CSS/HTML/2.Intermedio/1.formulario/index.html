@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html avanzado">
+    <meta name="author" content="Daniel Jay">
+    <meta name="robots" content="noarchive">
+    <title>HTML Avanzado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="messi.jpg">
+</head>
+<body>
+    <form>
+        <h2>Datos de contacto</h2>
+        <fieldset>
+        <legend>Informacion basica</legend> 
+        <div class="form_input">
+            <label>Nombre Completo</label>
+            <input type="text"  class="input-field">
+        </div>
+        <div class="form_input">
+            <label>Email</label>
+            <input type="email"  class="input-field">
+        </div>
+        <div class="form_input">
+            <label>Genero</label>
+            <select name="Genero">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Dudoso">Dudoso</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+    </fieldset>
+        <div class="form_input">
+            <label >Deja tu mensaje</label>
+            <textarea  maxlength="140"  name="Consulta" id="text" ></textarea>
+        </div>
+        <div class="form_input">
+            <label>Acepto los <a href="terminos.html" rel="noopener" rel="noreferrer">terminos y condiciones</a></label>
+            <input type="checkbox">
+        </div>
+        <div>
+            <input type="Submit"  class="button-field">
+        </div>
+    </form>
+</body>
+</html>

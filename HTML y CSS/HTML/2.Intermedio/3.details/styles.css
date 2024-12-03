@@ -1,0 +1,14 @@
+body{
+    background-color: #333;
+    color: #ddd;
+}
+
+details{
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 9px 9px;
+}
+
+summary{
+    background-color: transparent;
+}
