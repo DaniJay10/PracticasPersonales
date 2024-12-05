@@ -1,0 +1,4 @@
+1005296913,Daniel Andres Pinzon Jay,2003-08-16,M
+1006273234,Yeimy Corzo,2004-10-06,F
+1234,Prueba,2024-09-01,M
+12323,Messi,2024-09-01,M

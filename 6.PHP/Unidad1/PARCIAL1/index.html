@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial Primer Corte</title>
+</head>
+<body>
+   <form>
+    <p>Registro de usuarios</p>
+    <ol>
+        <li>Crear Usuario</li>
+        <li>Iniciar Sesion</li>
+    </ol>
+    <br>
+    <input type="text" id="metodo" name="metodo" /><br><br>
+    <button type="button" onclick="obtenerMetodo()">Ejecutar</button>
+    <br>
+   </form> 
+   <div id="formulario"></div>
+   <script>
+   function obtenerMetodo(){
+    var metodo = parseInt(document.getElementById("metodo").value);
+   const formulario = document.getElementById("formulario");
+   let textoHTML = '';
+   if(metodo == 1){
+    textoHTML = `
+    <form action="parcial.php" method="POST">
+        <input type="hidden" name="metodo" id=metodo value="1" />
+        <p>Nombre</p>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required /><br>
+        <p>Apellido</p>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required /><br>
+        <p>Edad</p>
+        <input type="text" name="edad" id="edad" placeholder="Edad" required /><br>
+        <p>Salario</p>
+        <input type="text" name="salario" id="salario" placeholder="Salario" required /><br>
+        <p>Usuario</p>
+        <input type="text" name="user" id="user" placeholder="Usuario" required /><br>
+        <p>Clave</p>
+        <input type="password" name="clave" id="clave" placeholder="Clave" required /><br>
+        <br>
+        <input type="submit" name="registro" value="Registrar datos" />
+        <br>
+        <b1>NOTA: Ingresara al sistema con USUARIO y CLAVE.</b1>
+    </form>
+    `;
+   }else if(metodo == 2){
+    textoHTML = `
+    <form action="parcial.php" method="POST">
+        <input type="hidden" name="metodo" id=metodo value="2" />
+        <p>Usuario</p>
+        <input type="text" name="user" id="user" placeholder="Usuario" required /><br>
+        <p>Clave</p>
+        <input type="password" name="clave" id="clave" placeholder="Clave" required /><br>
+        <br>
+        <input type="submit" name="registro" value="Ingresar" />
+    </form>
+    `;
+   }else{
+    textoHTML='<p>¡¡¡ERROR!!! Opción no valida</p>';
+   }
+   formulario.innerHTML = textoHTML;
+   };
+   </script>
+</body>
+</html>

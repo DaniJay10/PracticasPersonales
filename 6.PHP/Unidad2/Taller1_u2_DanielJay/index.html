@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 1 unidad 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title text-center">Taller de Gestión de Pacientes</h2>
+
+                <form>
+                    <p>Ingrese el método a realizar</p>
+                    <ol>
+                        <li>Crear Paciente</li>
+                        <li>Consultar Paciente</li>
+                        <li>Editar Paciente</li>
+                        <li>Calcular edad del Paciente</li>
+                        <li>Eliminar Paciente</li>
+                    </ol>
+                    
+                    <div class="mb-3">
+                        <label for="metodo" class="form-label">Método:</label>
+                        <input type="text" id="metodo" name="metodo" class="form-control" />
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-primary" onclick="procesarMetodo()">Ejecutar</button>
+                    </div>                                      
+                </form>
+                <div id="formularioPaciente" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function procesarMetodo() {
+            var metodo = parseInt(document.getElementById("metodo").value);
+            const formularioDiv = document.getElementById("formularioPaciente");
+
+            let formularioHTML = '';
+
+            if (metodo == 1) {
+                formularioHTML = `
+                <form action="Taller1U2.php" method="POST" class="mt-3">
+                    <input type="hidden" name="metodo" id="metodo" value="1" />
+                    <div class="mb-3">
+                    <label for="cedula" class="form-label">Ingrese Cédula</label>
+                    <input type="text" name="cedula" id="cedula" class="form-control" placeholder="Cédula" required />
+                    </div>
+                    <div class="mb-3">
+                    <label for="nombre" class="form-label">Ingrese Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required/>
+                    </div>
+                    <div class="mb-3">
+                    <label for="fechaNac" class="form-label">Ingrese Fecha de Nacimiento</label>
+                    <input type="date" name="fechaNac" id="fechaNac" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                    <label for="genero" class="form-label">Ingrese Género ("M" o "F")</label>
+                    <input type="text" name="genero" id="genero" class="form-control" placeholder="Género" required/>
+                    </div>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </form>`;
+            } else if (metodo == 2) {
+                 formularioHTML = `
+                <form action="Taller1U2.php" method="POST" class="mt-3">
+                 <input type="hidden" name="metodo" id="metodo" value="2" />
+                 <div class="mb-3">
+                 <label for="ceCon" class="form-label">Ingrese Cédula de paciente a consultar</label>
+                 <input type="text" name="ceCon" id="ceCon" class="form-control" placeholder="Cédula Consulta" required />
+                 </div>
+                 <div class="d-grid gap-2 col-6 mx-auto">
+                 <button type="submit" class="btn btn-success">Enviar</button>
+                 </div>
+                </form>`;
+            } else if (metodo == 3) {
+                formularioHTML = `
+             <form action="Taller1U2.php" method="POST" class="mt-3">
+               <input type="hidden" name="metodo" id="metodo" value="3" />
+               <div class="mb-3">
+                <label for="cedula" class="form-label">Ingrese Cédula de paciente a modificar</label>
+                <input type="text" name="cedula" id="cedula" class="form-control" placeholder="Cédula" required />
+               </div>
+               <div class="mb-3">
+                <label for="cedulaNueva" class="form-label">Ingrese nueva cédula</label>
+                <input type="text" name="cedulaNueva" id="cedulaNueva" class="form-control" placeholder="Nueva Cédula"/>
+               </div>
+               <div class="mb-3">
+                <label for="nombre" class="form-label">Ingrese Nuevo Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nuevo Nombre"/>
+               </div>
+               <div class="mb-3">
+                <label for="fechaNac" class="form-label">Ingrese Nueva Fecha de Nacimiento</label>
+                <input type="date" name="fechaNac" id="fechaNac" class="form-control" />
+                </div>
+               <div class="mb-3">
+                <label for="genero" class="form-label">Ingrese Nuevo Género ("M" o "F")</label>
+                <input type="text" name="genero" id="genero" class="form-control" placeholder="Nuevo Género" />
+               </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
+               <br>
+               <b class="text-muted">NOTA: En caso de no querer modificar algún dato, puede dejar el campo en cuestión vacío.</b>
+               </form>`;
+            } else if (metodo == 4) {
+            formularioHTML = `
+            <form action="Taller1U2.php" method="POST" class="mt-3">
+            <input type="hidden" name="metodo" id="metodo" value="4" />
+            <div class="mb-3">
+            <label for="cedula" class="form-label">Ingrese Cédula del paciente a calcular edad</label>
+            <input type="text" name="cedula" id="cedula" class="form-control" placeholder="Cédula" required />
+            </div>
+            <div class="mb-3">
+            <label for="fechaActual" class="form-label">Ingrese Fecha Actual</label>
+            <input type="date" name="fechaActual" id="fechaActual" class="form-control" required />
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+            </form>`;
+            } else if (metodo == 5) {
+             formularioHTML = `
+             <form action="Taller1U2.php" method="POST" class="mt-3">
+               <input type="hidden" name="metodo" id="metodo" value="5" />
+               <div class="mb-3">
+                <label for="cedulaBorrar" class="form-label">Ingrese Cédula de paciente a eliminar</label>
+                <input type="text" name="cedulaBorrar" id="cedulaBorrar" class="form-control" placeholder="Cédula" required />
+               </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
+             </form>`;
+            } else {
+                formularioHTML = '<p class="text-danger">Por favor, ingrese un método válido (1 a 5).</p>';
+            }
+
+            formularioDiv.innerHTML = formularioHTML;
+        }
+    </script>
+</body>
+</html>

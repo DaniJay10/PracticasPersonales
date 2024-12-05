@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+        function ejecutar(){
+         var peso = parseFloat(document.getElementById("peso").value);
+         var altura = parseFloat(document.getElementById("altura").value);
+         var masaCorporal=peso/(altura^2);
+       document.getElementById("rta").innerHTML=masaCorporal
+    }
+    </script>
+    <b1>Ejercicio 1</b1>
+    <br>
+    <b2>Calculo de masa corporal</b2>
+    <br>
+    <p></p>
+    <form>
+        <label>Ingrese su peso</label><input type="text" id="peso"/>
+        <br>
+        <label>Ingrese su altura</label><input type="text" id="altura"/>
+        <p></p>
+        <input type="button" value="Ejecutar" onclick="ejecutar()"/>
+        <br>
+    </form> <br>
+    <p>Su masa corporal es:</p><div id="rta"></div>
+    <br>
+    <a href="clase_16agosto.html">Regresar</a>
+</body>
+</html>
