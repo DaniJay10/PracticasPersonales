@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\bin\Debug\net9.0\operators.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\bin\Debug\net9.0\operators.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\bin\Debug\net9.0\operators.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\bin\Debug\net9.0\operators.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\bin\Debug\net9.0\operators.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\refint\operators.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\operators.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\operators\obj\Debug\net9.0\ref\operators.dll

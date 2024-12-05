@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\bin\Debug\net9.0\4.Bucles.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\bin\Debug\net9.0\4.Bucles.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\bin\Debug\net9.0\4.Bucles.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\bin\Debug\net9.0\4.Bucles.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\bin\Debug\net9.0\4.Bucles.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\refint\4.Bucles.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\4.Bucles.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\4.Bucles\obj\Debug\net9.0\ref\4.Bucles.dll

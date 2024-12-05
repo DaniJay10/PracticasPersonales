@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\bin\Debug\net9.0\3.Conditionals.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\bin\Debug\net9.0\3.Conditionals.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\bin\Debug\net9.0\3.Conditionals.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\bin\Debug\net9.0\3.Conditionals.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\bin\Debug\net9.0\3.Conditionals.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\refint\3.Conditionals.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\3.Conditionals.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\3.Conditionals\obj\Debug\net9.0\ref\3.Conditionals.dll
