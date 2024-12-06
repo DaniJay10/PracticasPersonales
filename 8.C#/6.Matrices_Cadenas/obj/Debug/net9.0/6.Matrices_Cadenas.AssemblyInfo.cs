@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6.Matrices_Cadenas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+762d2b297dbad0d38a49ff3870ea74b19c70b90f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921cdcd8c00f705768360b03a5c833127e875f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("6.Matrices_Cadenas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6.Matrices_Cadenas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
