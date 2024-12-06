@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5.JumpStatements")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921cdcd8c00f705768360b03a5c833127e875f22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91759a0d3b8a22e24f5fb1b4ee0d90d0afb093f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("5.JumpStatements")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5.JumpStatements")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
