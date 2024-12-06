@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "6.Matrices_Cadenas/1.0.0": {
+        "runtime": {
+          "6.Matrices_Cadenas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "6.Matrices_Cadenas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
