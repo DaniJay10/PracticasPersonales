@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\bin\Debug\net9.0\8.Interfaces.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\bin\Debug\net9.0\8.Interfaces.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\bin\Debug\net9.0\8.Interfaces.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\bin\Debug\net9.0\8.Interfaces.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\bin\Debug\net9.0\8.Interfaces.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\refint\8.Interfaces.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\8.Interfaces.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\8.Interfaces\obj\Debug\net9.0\ref\8.Interfaces.dll
