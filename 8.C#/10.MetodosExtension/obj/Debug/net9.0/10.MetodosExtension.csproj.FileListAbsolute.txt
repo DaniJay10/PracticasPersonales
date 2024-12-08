@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\bin\Debug\net9.0\10.MetodosExtension.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\bin\Debug\net9.0\10.MetodosExtension.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\bin\Debug\net9.0\10.MetodosExtension.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\bin\Debug\net9.0\10.MetodosExtension.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\bin\Debug\net9.0\10.MetodosExtension.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\refint\10.MetodosExtension.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\10.MetodosExtension.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\10.MetodosExtension\obj\Debug\net9.0\ref\10.MetodosExtension.dll

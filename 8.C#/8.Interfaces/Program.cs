@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using coreObjectOrientedConcepts; 
+
+Cuenta cuenta = new Cuenta();
+cuenta.depositar();
+cuenta.retirar();
+cuenta.balance();
