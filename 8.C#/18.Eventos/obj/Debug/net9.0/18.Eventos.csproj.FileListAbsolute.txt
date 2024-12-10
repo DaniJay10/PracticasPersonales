@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\bin\Debug\net9.0\18.Eventos.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\bin\Debug\net9.0\18.Eventos.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\bin\Debug\net9.0\18.Eventos.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\bin\Debug\net9.0\18.Eventos.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\bin\Debug\net9.0\18.Eventos.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\refint\18.Eventos.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\18.Eventos.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\18.Eventos\obj\Debug\net9.0\ref\18.Eventos.dll
