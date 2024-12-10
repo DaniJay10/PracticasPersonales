@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\bin\Debug\net9.0\20.Lambda.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\bin\Debug\net9.0\20.Lambda.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\bin\Debug\net9.0\20.Lambda.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\bin\Debug\net9.0\20.Lambda.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\bin\Debug\net9.0\20.Lambda.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\refint\20.Lambda.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\20.Lambda.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\20.Lambda\obj\Debug\net9.0\ref\20.Lambda.dll
