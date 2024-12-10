@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\bin\Debug\net9.0\13.Indexer.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\bin\Debug\net9.0\13.Indexer.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\bin\Debug\net9.0\13.Indexer.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\bin\Debug\net9.0\13.Indexer.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\bin\Debug\net9.0\13.Indexer.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\refint\13.Indexer.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\13.Indexer.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\13.Indexer\obj\Debug\net9.0\ref\13.Indexer.dll

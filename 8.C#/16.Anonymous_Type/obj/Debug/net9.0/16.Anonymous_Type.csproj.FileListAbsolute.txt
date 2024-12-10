@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\bin\Debug\net9.0\16.Anonymous_Type.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\bin\Debug\net9.0\16.Anonymous_Type.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\bin\Debug\net9.0\16.Anonymous_Type.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\bin\Debug\net9.0\16.Anonymous_Type.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\bin\Debug\net9.0\16.Anonymous_Type.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\refint\16.Anonymous_Type.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\16.Anonymous_Type.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\16.Anonymous_Type\obj\Debug\net9.0\ref\16.Anonymous_Type.dll
