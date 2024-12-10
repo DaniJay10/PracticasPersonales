@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\bin\Debug\net9.0\17.Delegate.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\bin\Debug\net9.0\17.Delegate.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\bin\Debug\net9.0\17.Delegate.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\bin\Debug\net9.0\17.Delegate.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\bin\Debug\net9.0\17.Delegate.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\refint\17.Delegate.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\17.Delegate.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\17.Delegate\obj\Debug\net9.0\ref\17.Delegate.dll
