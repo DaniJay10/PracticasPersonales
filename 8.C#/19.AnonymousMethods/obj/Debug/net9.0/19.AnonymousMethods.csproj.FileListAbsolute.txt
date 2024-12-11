@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\bin\Debug\net9.0\19.AnonymousMethods.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\bin\Debug\net9.0\19.AnonymousMethods.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\bin\Debug\net9.0\19.AnonymousMethods.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\bin\Debug\net9.0\19.AnonymousMethods.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\bin\Debug\net9.0\19.AnonymousMethods.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\refint\19.AnonymousMethods.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\19.AnonymousMethods.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\19.AnonymousMethods\obj\Debug\net9.0\ref\19.AnonymousMethods.dll
