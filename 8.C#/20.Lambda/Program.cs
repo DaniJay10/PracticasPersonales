@@ -1,17 +1,15 @@
-﻿using System;
+﻿//Expression lambda
+Func<int, int> square = x => x * x; 
+Console.WriteLine(square(5)); // Salida: 25
 
-public delegate void MiDelegado(string mensaje);
 
-class Program
+
+//Statement lambda
+Func<int, int> factorial = n =>
 {
-    static void Main(string[] args)
-    {
-        MiDelegado mostrarMensaje = (mensaje) => {
-            Console.WriteLine($"El mensaje es: {mensaje}");
-        };
-
-        mostrarMensaje("¡Hola desde una expresión lambda!");
-
-        Console.ReadLine();
-    }
-}
+    int result = 1;
+    for (int i = 1; i <= n; i++)
+        result *= i;
+    return result;
+};
+Console.WriteLine(factorial(5)); // Salida: 120
