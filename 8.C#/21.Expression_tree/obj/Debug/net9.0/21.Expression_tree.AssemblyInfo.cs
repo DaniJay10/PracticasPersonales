@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("20.Lambda")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("21.Expression_tree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620fde52598d6992c95937c07012ddeee9e080eb")]
-[assembly: System.Reflection.AssemblyProductAttribute("20.Lambda")]
-[assembly: System.Reflection.AssemblyTitleAttribute("20.Lambda")]
+[assembly: System.Reflection.AssemblyProductAttribute("21.Expression_tree")]
+[assembly: System.Reflection.AssemblyTitleAttribute("21.Expression_tree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
