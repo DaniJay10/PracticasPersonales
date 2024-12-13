@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "22.P_Sincronica/1.0.0": {
+        "runtime": {
+          "22.P_Sincronica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "22.P_Sincronica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

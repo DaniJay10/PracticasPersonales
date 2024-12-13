@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\bin\Debug\net9.0\23.P_Asincronica.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\bin\Debug\net9.0\23.P_Asincronica.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\bin\Debug\net9.0\23.P_Asincronica.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\bin\Debug\net9.0\23.P_Asincronica.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\bin\Debug\net9.0\23.P_Asincronica.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\refint\23.P_Asincronica.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\23.P_Asincronica.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\23.P_Asincronica\obj\Debug\net9.0\ref\23.P_Asincronica.dll
