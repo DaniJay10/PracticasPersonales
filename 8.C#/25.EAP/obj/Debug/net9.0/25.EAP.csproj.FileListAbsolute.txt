@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\bin\Debug\net9.0\25.EAP.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\bin\Debug\net9.0\25.EAP.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\bin\Debug\net9.0\25.EAP.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\bin\Debug\net9.0\25.EAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\bin\Debug\net9.0\25.EAP.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\refint\25.EAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\25.EAP.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\25.EAP\obj\Debug\net9.0\ref\25.EAP.dll
