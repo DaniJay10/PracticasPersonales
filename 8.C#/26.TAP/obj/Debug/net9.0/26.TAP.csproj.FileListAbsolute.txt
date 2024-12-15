@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\bin\Debug\net9.0\26.TAP.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\bin\Debug\net9.0\26.TAP.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\bin\Debug\net9.0\26.TAP.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\bin\Debug\net9.0\26.TAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\bin\Debug\net9.0\26.TAP.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\refint\26.TAP.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\26.TAP.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\26.TAP\obj\Debug\net9.0\ref\26.TAP.dll

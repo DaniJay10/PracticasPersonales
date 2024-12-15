@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\bin\Debug\net9.0\24.APM.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\bin\Debug\net9.0\24.APM.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\bin\Debug\net9.0\24.APM.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\bin\Debug\net9.0\24.APM.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\bin\Debug\net9.0\24.APM.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\refint\24.APM.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\24.APM.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\24.APM\obj\Debug\net9.0\ref\24.APM.dll
