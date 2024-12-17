@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* 2.Calculadora básica 
+Desarrolla una calculadora que permita realizar suma, resta, multiplicación y división entre 
+dos números según la opción elegida por el usuario. 
+Temas: Condicionales, Operadores, Métodos. */
+
+
+using System;
 
 namespace Calculadora
 {
