@@ -18,14 +18,14 @@ namespace Buscador {
 
             int contador = 0;
 
-            string [] partesOracion = oracion.Split(',');
+            string [] partesOracion = oracion.Split(' ');
             foreach ( string parte in partesOracion){
-                if(parte === palabra){
+                if(parte.ToLower() == palabra.ToLower()){
                     contador += 1;
                 }
             }
 
-            Console.WriteLine($"La palabra: {palabra} se repite: {contador} en la oracion");
+            Console.WriteLine($"La palabra: {palabra} se repite: {contador} veces en la oracion");
 
 
         }

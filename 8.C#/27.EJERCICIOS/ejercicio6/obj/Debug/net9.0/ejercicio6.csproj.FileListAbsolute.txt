@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\bin\Debug\net9.0\ejercicio6.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\bin\Debug\net9.0\ejercicio6.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\bin\Debug\net9.0\ejercicio6.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\bin\Debug\net9.0\ejercicio6.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\bin\Debug\net9.0\ejercicio6.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\refint\ejercicio6.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ejercicio6.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio6\obj\Debug\net9.0\ref\ejercicio6.dll

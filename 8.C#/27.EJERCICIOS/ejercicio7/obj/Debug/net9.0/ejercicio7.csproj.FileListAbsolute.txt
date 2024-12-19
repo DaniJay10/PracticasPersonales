@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\bin\Debug\net9.0\ejercicio7.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\bin\Debug\net9.0\ejercicio7.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\bin\Debug\net9.0\ejercicio7.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\bin\Debug\net9.0\ejercicio7.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\bin\Debug\net9.0\ejercicio7.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\refint\ejercicio7.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ejercicio7.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\ejercicio7\obj\Debug\net9.0\ref\ejercicio7.dll
