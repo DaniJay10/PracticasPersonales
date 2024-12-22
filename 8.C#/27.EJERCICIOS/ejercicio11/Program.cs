@@ -1,4 +1,11 @@
-﻿namespace ejercicio11{
+﻿/*11.Uso de Enum 
+Crea un enum llamado DiasSemana con los días de la semana. Solicita al usuario un número 
+del 1 al 7 e imprime el día correspondiente. 
+Temas: Enum, Condicionales.*/
+
+
+
+namespace ejercicio11{
     class Program{
     enum DiasSemanas : int {
         Lunes,
