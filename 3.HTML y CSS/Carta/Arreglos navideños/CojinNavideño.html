@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cojín Navideños</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border: 2px solid #a52a2a;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            color: #b22222;
+            margin-bottom: 30px;
+            font-size: 44px;
+            font-weight: bold;
+            font-family: 'Dancing Script', cursive;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        h1::after {
+            content: '🎄✨🎁';
+            display: block;
+            text-align: center;
+            font-size: 32px;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 20px;
+        }
+
+        th {
+            background-color: #b22222;
+            color: white;
+        }
+
+        td {
+            background-color: #fdf5e6;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #ffe4e1;
+        }
+
+        tr:hover {
+            background-color: #ffebcd;
+        }
+
+        .sum-row {
+            font-weight: bold;
+            background-color: #228b22;
+            color: black;
+        }
+
+        .total-general {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+        }
+
+        .decoracion {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 32px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Media Queries para ajustar en pantallas pequeñas */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            table {
+                font-size: 16px;
+                overflow-x: auto; /* Hacer la tabla desplazable horizontalmente */
+            }
+
+            .total-general {
+                font-size: 20px;
+            }
+
+            .decoracion {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            table {
+                font-size: 14px;
+                overflow-x: auto; /* Hacer la tabla desplazable horizontalmente */
+                display: block;   /* Necesario para el desplazamiento horizontal */
+                border: 0;        /* Eliminar borde para evitar el desbordamiento */
+            }
+
+            th, td {
+                padding: 8px;  /* Reducir padding para más espacio */
+                white-space: nowrap; /* Evitar el salto de línea en celdas */
+            }
+
+            .total-general {
+                font-size: 18px;
+            }
+
+            .decoracion {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cojín Navideños</h1>
+        <div class="table-container">
+            <table id="table1">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Valor pagado</th>
+                        <th>Debe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los que no deben nada -->
+                    <tr>
+                        <td>1</td>
+                        <td>Daniel Andres Pinzon Jay</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Diana Aparicio Beltran</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Paula Castellanos</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Camila Ardila</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Camila Aparicio</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                    </tr>
+                    <!-- Los que pagaron pero deben de mayor a menor -->
+                    <tr>
+                        <td>6</td>
+                        <td>Karol Daza</td>
+                        <td>$20.000</td>
+                        <td>$36.000</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Juan Vides</td>
+                        <td>$20.000</td>
+                        <td>$36.000</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Andrea Sofia Tarazona</td>
+                        <td>$15.000</td>
+                        <td>$41.000</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Arnold Uribe</td>
+                        <td>$15.000</td>
+                        <td>$41.000</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Stefany Romero</td>
+                        <td>$10.000</td>
+                        <td>$46.000</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>11</td>
+                        <td>Maria Nancy Castañeda</td>
+                        <td>$10.000</td>
+                        <td>$46.000</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Gabriela Marmol</td>
+                        <td>$10.000</td>
+                        <td>$46.000</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Luis Alberto Alvarez</td>
+                        <td>$15.000</td>
+                        <td>$41.000</td>
+                    </tr>
+                    <!-- Los que no han pagado nada -->
+                    <tr>
+                        <td>14</td>
+                        <td>Ana Maria Ortega</td>
+                        <td>$20.000</td>
+                        <td>$36.000</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Carol Dayana Rey</td>
+                        <td>$0.000</td>
+                        <td>$56.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="sum-row">
+                        <td colspan="2">Total</td>
+                        <td id="total-valor-pagado"></td>
+                        <td id="total-debe"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="total-general" id="total-general">
+            Total General: $0
+        </div>
+
+        <div class="decoracion">
+            🎅🏻🌟 Feliz Navidad 🎅🏻🌟
+        </div>
+    </div>
+
+    <script>
+        function calculateTotals() {
+            const table = document.getElementById('table1');
+            let totalPagado = 0;
+            let totalDebe = 0;
+
+            for (let i = 1; i < table.rows.length - 1; i++) { // Excluir la fila de Total
+                // Sumar "Valor pagado"
+                const valorPagadoCell = table.rows[i].cells[2];
+                const valorPagadoText = valorPagadoCell.textContent || valorPagadoCell.innerText;
+                const valorPagado = parseInt(valorPagadoText.replace(/[^0-9]/g, ''));
+
+                if (!isNaN(valorPagado)) {
+                    totalPagado += valorPagado;
+                }
+
+                // Sumar "Debe"
+                const debeCell = table.rows[i].cells[3];
+                const debeText = debeCell.textContent || debeCell.innerText;
+                const debe = parseInt(debeText.replace(/[^0-9]/g, ''));
+
+                if (!isNaN(debe)) {
+                    totalDebe += debe;
+                }
+            }
+
+            document.getElementById('total-valor-pagado').textContent = `$${totalPagado.toLocaleString('es-CO')}`;
+            document.getElementById('total-debe').textContent = `$${totalDebe.toLocaleString('es-CO')}`;
+            document.getElementById('total-general').textContent = `Total General: $${(totalPagado + totalDebe).toLocaleString('es-CO')}`;
+        }
+
+        window.onload = calculateTotals;
+    </script>
+</body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cojín Navideños</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border: 2px solid #a52a2a;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            color: #b22222;
+            margin-bottom: 30px;
+            font-size: 44px;
+            font-weight: bold;
+            font-family: 'Dancing Script', cursive;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        h1::after {
+            content: '🎄✨🎁';
+            display: block;
+            text-align: center;
+            font-size: 32px;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 20px;
+        }
+
+        th {
+            background-color: #b22222;
+            color: white;
+        }
+
+        td {
+            background-color: #fdf5e6;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #ffe4e1;
+        }
+
+        tr:hover {
+            background-color: #ffebcd;
+        }
+
+        .sum-row {
+            font-weight: bold;
+            background-color: #228b22;
+            color: black;
+        }
+
+        .total-general {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+        }
+
+        .decoracion {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 32px;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        /* Estilos para filas entregadas y no entregadas */
+        .entregado-si td {
+            background-color: #d4f8e8 !important; /* Verde muy claro */
+        }
+
+        .entregado-no td {
+            background-color: #f8d4d4 !important; /* Rojo muy claro */
+        }
+
+        /* Media Queries para ajustar en pantallas pequeñas */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            table {
+                font-size: 16px;
+                overflow-x: auto; /* Hacer la tabla desplazable horizontalmente */
+            }
+
+            .total-general {
+                font-size: 20px;
+            }
+
+            .decoracion {
+                font-size: 24px;
+            }
+        }
+        #total-general {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em; /* Puedes ajustar el valor para hacerlo más grande si lo prefieres */
+}
+
+        .entregado-si {
+        background-color: #d4f8e8 !important; /* Verde claro */
+}
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            table {
+                font-size: 14px;
+                overflow-x: auto; /* Hacer la tabla desplazable horizontalmente */
+                display: block;   /* Necesario para el desplazamiento horizontal */
+                border: 0;        /* Eliminar borde para evitar el desbordamiento */
+            }
+
+            th, td {
+                padding: 8px;  /* Reducir padding para más espacio */
+                white-space: nowrap; /* Evitar el salto de línea en celdas */
+            }
+
+            .total-general {
+                font-size: 18px;
+            }
+
+            .decoracion {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cojín Navideños</h1>
+        <div class="table-container">
+            <table id="table1">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Valor pagado</th>
+                        <th>Debe</th>
+                        <th>Entregado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Daniel Andres Pinzon Jay</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Diana Aparicio Beltran</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Paula Castellanos</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Camila Ardila</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Camila Aparicio</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Carol Dayana Rey Tojas</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Derly Leon</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Ana Ortega</td>
+                        <td>$50.000</td>
+                        <td>$6.000</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Karol Daza</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Juan Vides</td>
+                        <td>$40.000</td>
+                        <td>$16.000</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Andrea Sofia Tarazona</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Arnold Uribe</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Luis Alberto Alvarez</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Stefany Romero</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Maria Nancy Castañeda</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Gabriela Marmol</td>
+                        <td>$56.000</td>
+                        <td>No</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Juanita castro</td>
+                        <td>$35.000</td>
+                        <td>$21.000</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="sum-row">
+                        <td colspan="2">Totales</td>
+                        <td id="total-valor-pagado"></td>
+                        <td id="total-debe"></td>
+                        <td id="total-entregado"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <p id="total-general"><strong>Total General: </strong>$0</p>
+<!-- Segunda tabla: Pagos Realizados a Briggite -->
+<h1>Pagos Realizados a Briggite</h1>
+<div class="table-container">
+    <table id="table2">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Observaciones</th>
+                <th>Fecha de Pago</th>
+                <th>Valor pagado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Primer abono</td>
+                <td>12/09/2024</td>
+                <td>$315.000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Segundo abono</td>
+                <td>12/09/2024</td>
+                <td>$40.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tercer abono</td>
+                <td>13/09/2024</td>
+                <td>$35.000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Cuarto abono</td>
+                <td>13/09/2024</td>
+                <td>$5.000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Quinto abono</td>
+                <td>19/09/2024</td>
+                <td>$132.000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Sexto abono</td>
+                <td>24/09/2024</td>
+                <td>$143.000</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Septimo abono</td>
+                <td>15/10/2024</td>
+                <td>$45.000</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Octavo abono</td>
+                <td>18/10/2024</td>
+                <td>$46.000</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Noveno abono</td>
+                <td>25/10/2024</td>
+                <td>$26.000</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Decimo abono</td>
+                <td>01/11/2024</td>
+                <td>$56.000</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Undceimo abono</td>
+                <td>13/11/2024</td>
+                <td>$66.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="sum-row">
+                <td colspan="3">Total Pagado</td>
+                <td id="total-pagado-briggite"></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+    </div>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const calculateTotals = () => {
+        const table1 = document.getElementById('table1');
+        const rows1 = table1.querySelectorAll('tbody tr');
+        let totalValorPagado = 0;
+        let totalDebe = 0;
+        let totalEntregado = 0;
+
+        rows1.forEach(row => {
+            const valorPagado = parseFloat(row.cells[2].textContent.replace(/[^0-9.-]/g, '')) || 0;
+            const debe = parseFloat(row.cells[3].textContent.replace(/[^0-9.-]/g, '')) || 0;
+            const entregado = row.cells[4].textContent.trim().toLowerCase();
+
+            if (!isNaN(valorPagado)) {
+                totalValorPagado += valorPagado;
+            }
+
+            if (!isNaN(debe)) {
+                totalDebe += debe;
+            }
+
+            if (entregado === 'sí' || entregado === 'si') {
+                totalEntregado += 1;
+                row.classList.add('entregado-si');
+            } else {
+                row.classList.remove('entregado-si');
+            }
+        });
+
+        // Actualizamos los totales en la primera tabla
+        document.getElementById('total-valor-pagado').textContent = `$${(totalValorPagado * 1000).toLocaleString('es-CO')}`;
+        document.getElementById('total-debe').textContent = `$${(totalDebe * 1000).toLocaleString('es-CO')}`;
+        document.getElementById('total-entregado').textContent = totalEntregado;
+
+        // Calculamos el total general
+        const totalGeneral = totalValorPagado + totalDebe;
+        document.getElementById('total-general').textContent = `Total General: $${(totalGeneral * 1000).toLocaleString('es-CO')}`;
+
+        // Para la segunda tabla
+        const table2 = document.getElementById('table2');
+        const rows2 = table2.querySelectorAll('tbody tr');
+        let totalPagadoBriggite = 0;
+
+        rows2.forEach(row => {
+            const valorPagadoBriggite = parseFloat(row.cells[3].textContent.replace(/[^0-9.-]/g, '')) || 0;
+
+            if (!isNaN(valorPagadoBriggite)) {
+                totalPagadoBriggite += valorPagadoBriggite;
+            }
+        });
+
+        const footerCell = table2.querySelector('tfoot tr td:last-child');
+        footerCell.textContent = `$${(totalPagadoBriggite * 1000).toLocaleString('es-CO')}`;
+    };
+
+    calculateTotals();
+});
+
+
+
+    </script>
+</body>
+</html>
