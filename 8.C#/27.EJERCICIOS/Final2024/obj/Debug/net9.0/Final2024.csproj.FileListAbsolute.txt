@@ -1,0 +1,15 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.sourcelink.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\bin\Debug\net9.0\Final2024.exe
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\bin\Debug\net9.0\Final2024.deps.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\bin\Debug\net9.0\Final2024.runtimeconfig.json
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\bin\Debug\net9.0\Final2024.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\bin\Debug\net9.0\Final2024.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\refint\Final2024.dll
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.pdb
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\Final2024.genruntimeconfig.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\Final2024\obj\Debug\net9.0\ref\Final2024.dll
