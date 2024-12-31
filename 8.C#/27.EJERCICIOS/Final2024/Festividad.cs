@@ -16,7 +16,7 @@ namespace coreObjectOrientedConcepts {
         }
 
         public virtual void LlegoLaHora(){
-            Console.WriteLine($"Estamos a {Fecha}, Ya es {Nombre}")
+            Console.WriteLine($"Estamos a {Fecha}, Ya es {Nombre}");
         }
     }
 }
