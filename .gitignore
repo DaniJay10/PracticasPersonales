@@ -1,0 +1,9 @@
+PRACTICAS.sln
+#Ignorara todos los archvivos que tengan extension .cpp
+*.cpp  
+#Le indicamos una excepcion de los archivos .cpp que deben ser ignorados, readme.cpp no sera ignorado
+!readme.cpp
+#¿Como ignoramos un directorio completo?
+.vs/
+.vscode/
+#El / Le decimos que ignore todo los archivos del directorio
