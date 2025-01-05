@@ -1,0 +1,25 @@
+fecha_venta	producto	cantidad	precio_unitario	region	total_venta
+10/01/2024	Producto A	20	20	Region Norte	400
+15/01/2024	Producto B	10	10	Region Sur	100
+5/02/2024	Producto C	15	15	Region Este	225
+10/02/2024	Producto A	25	25	Region Oeste	625
+12/03/2024	Producto B	30	30	Region Norte	900
+15/03/2024	Producto C	10	10	Region Sur	100
+20/04/2024	Producto A	35	35	Region Este	1225
+22/04/2024	Producto B	20	20	Region Oeste	400
+18/05/2024	Producto C	40	40	Region Norte	1600
+20/05/2024	Producto A	30	30	Region Sur	900
+10/06/2024	Producto B	25	25	Region Este	625
+12/06/2024	Producto C	20	20	Region Oeste	400
+5/07/2024	Producto A	50	50	Region Norte	2500
+15/07/2024	Producto B	15	15	Region Sur	225
+20/08/2024	Producto C	45	45	Region Este	2025
+25/08/2024	Producto A	40	40	Region Oeste	1600
+5/09/2024	Producto B	30	30	Region Norte	900
+10/09/2024	Producto C	20	20	Region Sur	400
+15/10/2024	Producto A	60	60	Region Este	3600
+20/10/2024	Producto B	25	25	Region Oeste	625
+12/11/2024	Producto C	35	35	Region Norte	1225
+18/11/2024	Producto A	45	45	Region Sur	2025
+5/12/2024	Producto B	50	50	Region Este	2500
+10/12/2024	Producto C	30	30	Region Oeste	900

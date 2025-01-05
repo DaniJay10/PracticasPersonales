@@ -1,0 +1,25 @@
+"identificacion_maquina	";tiempo_operacion;"tiempo_inactividad	";tipo_error     ;"  unidades_producidas	";fecha;turno_trabajo
+"Robot Soldador 1	";480;30;Error en soldadura;150;1/01/2024;Mañana
+Torno 1;510;25;Desgaste de herramienta;160;15/01/2024;Tarde
+"Prensa Hidráulica 1	";400;40;Fallo en pieza de repuesto;100;24/01/2024;Noche
+"Robot Soldador 2	";430;35;Sobrecarga del motor;160;24/02/2024;Mañana
+"Torno 2	 ";390;55;Desgaste de herramienta;100;27/02/2024;Tarde
+"Prensa Hidráulica 2	";500;40;Fallo en pieza de repuesto;180;28/02/2024;Tarde
+"Robot Soldador 3	";520;45;Desgaste de herramienta;180;6/03/2024;Mañana
+Torno 3;480;40;Error en soldadura;120;14/03/2024;Tarde
+"Prensa Hidráulica 3	";430;55;Desgaste de herramienta;140;28/03/2024;Noche
+"Robot Soldador 4	";510;25;Desgaste de herramienta;150;17/04/2024;Mañana
+"Torno 4	";400;30;Error en soldadura;150;30/04/2024;Tarde
+"Prensa Hidráulica 4	";390;35;Error en soldadura;120;31/05/2024;Tarde
+"Robot Soldador 5	";430;55;Sobrecarga del motor;140;18/06/2024;Noche
+"Torno 5	";520;30;Error en soldadura;150;30/06/2024;Tarde
+"Prensa Hidráulica 5	";390;35;Sobrecarga del motor;140;14/07/2024;Noche
+"Robot Soldador 6	";390;30;Error en soldadura;100;16/08/2024;Noche
+Torno 6;520;45;Desgaste de herramienta;130;29/08/2024;Mañana
+"Prensa Hidráulica 6	";430;40;Error en soldadura;150;16/09/2024;Mañana
+"Robot Soldador 7	";480;35;Fallo en pieza de repuesto;180;6/10/2024;Tarde
+"Torno 7		";400;25;Fallo en pieza de repuesto;130;10/10/2024;Noche
+"Prensa Hidráulica 7	";500;30;Error en soldadura;120;26/11/2024;Tarde
+"Robot Soldador 8	";500;40;Sobrecarga del motor;100;1/12/2024;Mañana
+Torno 8;510;40;Sobrecarga del motor;150;7/12/2024;Noche
+"Prensa Hidráulica 8	";480;25;Fallo en pieza de repuesto;120;12/12/2024;Noche
