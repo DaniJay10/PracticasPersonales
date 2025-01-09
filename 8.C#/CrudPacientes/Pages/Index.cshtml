@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "PaginaJay";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <p>Ingrese el método a realizar</p>
+        <ol>
+            <li>Crear Paciente</li>
+            <li>Editar Paciente</li>
+            <li>Calcular edad del Paciente</li>
+            <li>Eliminar Paciente</li>
+        </ol>
+        <br>
+        <label for="metodo">Método:</label>
+        <input type="text" id="metodo" name="metodo" />
+        <br><br>
+        <button type="button" onclick="procesarMetodo()">Ejecutar</button>
+    </form>
+    <div id="formularioPaciente"></div>
+    <br>
+</body>
+</html>
