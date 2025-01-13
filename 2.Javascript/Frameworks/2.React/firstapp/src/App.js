@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { PrimerComponente } from './components/PrimerComponente';
+import { PrimerComponente } from './components/primercomponente';
 function App() {
   return (
     <div className="App">
