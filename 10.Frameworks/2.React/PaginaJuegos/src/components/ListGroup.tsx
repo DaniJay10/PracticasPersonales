@@ -1,12 +1,14 @@
 function ListGroup() {
+  const items = ["Suiza", "Noruega", "Suecia", "Dinamarca"];
+  const Message = items.length === 0 ? <p>Not item found</p> : null
   return (
-    <ul className="list-group">
-      <li className="list-group-item">An item</li>
-      <li className="list-group-item">A second item</li>
-      <li className="list-group-item">A third item</li>
-      <li className="list-group-item">A fourth item</li>
-      <li className="list-group-item">And a fifth one</li>
-    </ul>
+    <div>
+        <h1>List</h1>
+        {Message}
+        <ul className="list-group">
+        {items.map(item => <li key={item} >{item}</li>)}
+        </ul>
+    </div>
   );
 }
 
