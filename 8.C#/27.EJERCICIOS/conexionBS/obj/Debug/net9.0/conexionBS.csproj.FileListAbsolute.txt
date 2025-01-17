@@ -1,0 +1,5 @@
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\conexionBS\obj\Debug\net9.0\conexionBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\conexionBS\obj\Debug\net9.0\conexionBS.AssemblyInfoInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\conexionBS\obj\Debug\net9.0\conexionBS.AssemblyInfo.cs
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\conexionBS\obj\Debug\net9.0\conexionBS.csproj.CoreCompileInputs.cache
+C:\Users\danie\Music\PRACTICAS\8.C#\27.EJERCICIOS\conexionBS\obj\Debug\net9.0\conexionBS.sourcelink.json
