@@ -22,6 +22,8 @@ namespace Hospital {
             Console.WriteLine("Fecha: " + cita2.Fecha);
             Console.WriteLine("Hora: " + cita2.Hora);
 
+            Console.WriteLine("Hola");
+
 
         }
     }
