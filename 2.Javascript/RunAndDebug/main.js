@@ -12,3 +12,11 @@ let resultado = sumar(numero1, numero2);
 
 // Mostrar el resultado
 console.log("El resultado de sumar " + numero1 + " y " + numero2 + " es: " + resultado);
+
+// SNIPPETS
+function saludo(nombre) {
+    console.log("Hola " + nombre);
+}
+
+function Hola(eoeoe) {}
+    
