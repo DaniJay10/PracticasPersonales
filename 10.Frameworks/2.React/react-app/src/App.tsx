@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Card>
-        <CardBody title="Este es el titulo" text="este es el texto" />
+        <CardBody title="Esto es el título" text="Este es el texto" />
       </Card>
       <List data={list} />
     </>
