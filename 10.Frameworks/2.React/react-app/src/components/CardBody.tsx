@@ -1,5 +1,5 @@
 interface CardBodyProps {
-  title: String;
+  title: string;
   text: string;
 }
 
