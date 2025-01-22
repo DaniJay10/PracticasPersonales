@@ -1,4 +1,3 @@
-import CardBody from "./CardBody";
 import { ReactNode } from "react";
 interface Props {
   children: ReactNode;
