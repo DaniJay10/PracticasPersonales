@@ -5,7 +5,8 @@ type Props = {
   onSelect?: (elemento: string) => void;
 };
 
-function List({ data, onSelect }: Props) {
+function List(Props: Props) {
+  const { data, onSelect } = Props;
   const [index, setIndex] = useState(1);
   const handleClick = (i: number, elemento: string) => {
     setIndex(i);

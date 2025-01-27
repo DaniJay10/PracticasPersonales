@@ -3,7 +3,7 @@ import CardBody from "./components/CardBody";
 import List from "./components/List";
 
 function App() {
-  const list = ["Messi", "Iniesta", "Xavi"];
+  const list: string[] = [];
   const handleSelect = (elemento: string) => {
     console.log("imprimiendo", elemento);
   };
@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Card>
+        {list.length !== 0 && "La lista es:"}
         <CardBody title="Esto es el título" text="Este es el texto" />
       </Card>
       <List data={list} onSelect={handleSelect} />
