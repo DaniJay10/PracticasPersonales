@@ -3,21 +3,28 @@ import CardBody from "./components/CardBody";
 import List from "./components/List";
 
 function App() {
-  const list: string[] = [];
+  const list: string[] = ["messi"];
   const handleSelect = (elemento: string) => {
     console.log("imprimiendo", elemento);
   };
-  const handleSelect2 = (elemento: string) => {
-    console.log("mostrando", elemento);
-  };
+  //metodo 1 de rendereizado condicional
+  const cont =
+    list.length !== 0 ? (
+      <List data={list} onSelect={handleSelect} />
+    ) : (
+      "Sin elementos para mostrar"
+    );
+  //metodo 2 de rendereizado condicional
+  const cont2 = list.length !== 0 && (
+    <List data={list} onSelect={handleSelect} />
+  );
   return (
     <>
       <Card>
-        {list.length !== 0 && "La lista es:"}
         <CardBody title="Esto es el título" text="Este es el texto" />
+        {cont}
+        {cont2}
       </Card>
-      <List data={list} onSelect={handleSelect} />
-      <List data={list} onSelect={handleSelect2} />
     </>
   );
 }
