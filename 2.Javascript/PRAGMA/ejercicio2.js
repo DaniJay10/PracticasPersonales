@@ -11,5 +11,5 @@ function StringChallenge(sen) {
     return palabraLarga;
     }
        
- 
+    
     console.log(StringChallenge("fun&!! time"));

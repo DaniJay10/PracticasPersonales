@@ -9,5 +9,4 @@ function RecursionChallenge(num) {
       }
     }
 }
-console.log(RecursionChallenge(4));
-console.log(RecursionChallenge(19));
+console.log("Factorial: " + RecursionChallenge(19));
