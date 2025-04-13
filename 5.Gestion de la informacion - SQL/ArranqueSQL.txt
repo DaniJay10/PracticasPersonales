@@ -1,0 +1,7 @@
+para arrancar sql o mariadb:
+Get-Service MySQL*  # Ver estado
+Start-Service MySQL # Iniciar si está detenido
+
+
+Get-Service MariaDB*  # Ver estado
+Start-Service MariaDB # Iniciar si está detenido
