@@ -1,29 +1,9 @@
-nano ~/pb-backend/render-start.sh
+tar -czf pb_data.tar.gz pb_data
 
-#!/usr/bin/env bash
-set -euo pipefail
-
-# Asegurar carpetas
-mkdir -p /app/pb_data /app/pb_logs
-cd /app
-
-# Si pb_data está vacía y existe el snapshot, lo restauramos (una sola vez)
-if [ -f "/app/pb_data.tar.gz" ] && [ -z "$(ls -A /app/pb_data)" ]; then
-  echo "[start] Restaurando snapshot de pb_data..."
-  tar -xzf /app/pb_data.tar.gz -C /app
-  # Opcional: mantener el snapshot para futuros redeploys; si prefieres borrarlo, descomenta:
-  # rm -f /app/pb_data.tar.gz
-fi
-
-# Arrancar PocketBase (Railway usa $PORT; por defecto 8080)
-./pocketbase serve --http=0.0.0.0:${PORT:-8080}
-
-
-
-
-
+# Reemplazamos el snapshot en el repo del backend y hacer push
 
 cd ~/pb-backend
-git add render-start.sh
-git commit -m "feat: restore pb_data snapshot on first boot"
+cp ~/pb_data.tar.gz ./pb_data.tar.gz
+git add pb_data.tar.gz
+git commit -m "update: PocketBase snapshot (esquema/reglas/datos actualizados)"
 git push origin main
