@@ -1,5 +1,7 @@
-cd ~/pb-backend
-cp ~/pb_data.tar.gz ./pb_data.tar.gz
-git add pb_data.tar.gz
-git commit -m "data: snapshot pb_data for container"
+cd ~/pb-backend && nano Dockerfile
+
+COPY pb_data.tar.gz /app/pb_data.tar.gz
+
+git add Dockerfile
+git commit -m "chore: include pb_data.tar.gz in image"
 git push origin main
