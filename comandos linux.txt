@@ -1,0 +1,1 @@
+mkdir -p ~/pb-backend && cp ~/pocketbase ~/render-start.sh ~/pb-backend/ && chmod +x ~/pb-backend/pocketbase ~/pb-backend/render-start.sh && ls -lh ~/pb-backend
