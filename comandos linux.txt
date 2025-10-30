@@ -1,2 +1,5 @@
-cd ~
-tar -czf pb_data.tar.gz pb_data
+cd ~/pb-backend
+cp ~/pb_data.tar.gz ./pb_data.tar.gz
+git add pb_data.tar.gz
+git commit -m "data: snapshot pb_data for container"
+git push origin main
