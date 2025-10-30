@@ -1,1 +1,1 @@
-mkdir -p ~/pb-backend && cp ~/pocketbase ~/render-start.sh ~/pb-backend/ && chmod +x ~/pb-backend/pocketbase ~/pb-backend/render-start.sh && ls -lh ~/pb-backend
+cd ~/pb-backend && git init && git add pocketbase render-start.sh && git commit -m "init: PB backend (bin + start script)"
