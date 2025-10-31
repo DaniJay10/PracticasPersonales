@@ -7,3 +7,11 @@ cp ~/pb_data.tar.gz ./pb_data.tar.gz
 git add pb_data.tar.gz
 git commit -m "update: PocketBase snapshot (esquema/reglas/datos actualizados)"
 git push origin main
+
+
+
+
+
+
+PB_CORS_ALLOWED_ORIGINS="http://localhost:5173,https://pb-backend-production-6831.up.railway.app" \
+./pocketbase serve --http=0.0.0.0:8090
