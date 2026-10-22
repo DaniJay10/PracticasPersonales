@@ -1,26 +1,248 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carta</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <div class="container-letter">
-      <div class="cover"></div>
-      <span class="heart">♥</span>
-      <p class="paper" id="mainMessage">
-        Bañate, apestas 
-      </p>
-      <div class="letter"></div>
-    </div>
-    <div class="options">
-      <button id="open">Abrir</button>
-      <button id="close">Cerrar</butto>
-    </div>
-  </main>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carta</title>
+    <style>
+      * {
+        min-width: 0;
+        font: inherit;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      img,
+      video,
+      svg {
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100dvh;
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-wrap: balance;
+      }
+
+      p {
+        text-wrap: pretty;
+      }
+
+      /* styles */
+      /* TODO: Cambiar la fuente
+  
+  * {
+    font-family: comic-sans;
+  } */
+
+      body {
+        background-color: #fad7df;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container-letter {
+        position: relative;
+      }
+
+      .cover {
+        position: absolute;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 100px solid #fe3334;
+        border-bottom: 100px solid transparent;
+
+        /*  */
+        transition: transform 0.75s;
+        transform-origin: top;
+      }
+
+      .paper {
+        position: absolute;
+        padding: 1.5rem;
+        line-height: 2rem;
+        right: 5px;
+        /*  */
+        z-index: -1;
+        background: white;
+        width: 390px;
+        height: 180px;
+
+        transition: all 0.75s;
+      }
+
+      .letter {
+        border-left: 200px solid #ff989e;
+        border-right: 200px solid #ff989e;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid #ff858a;
+      }
+
+      .options {
+        display: flex;
+        gap: 5rem;
+
+        & button {
+          color: #ff3234;
+          font-weight: 600;
+          border-radius: 3px;
+          background: #fad7df;
+          padding: 0.5rem 1rem;
+          border: 1px solid #fe3334;
+          cursor: pointer;
+        }
+
+        & button:hover {
+          background: #ff989e;
+          color: white;
+        }
+      }
+
+      .open-cover {
+        transform: rotatex(180deg);
+      }
+
+      .open-paper {
+        animation: openPaper 0.5s forwards;
+      }
+
+      @keyframes openPaper {
+        0% {
+          top: 0;
+        }
+        100% {
+          top: -120px;
+        }
+      }
+
+      .close-paper {
+        animation: closePaper 0.5s forwards;
+      }
+
+      @keyframes closePaper {
+        0% {
+          top: -120px;
+        }
+        100% {
+          top: 0;
+        }
+      }
+
+      .heart {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 46.5%;
+        margin: auto;
+        font-size: 3rem;
+
+        color: #fe3334;
+
+        animation: crecer 1s forwards;
+      }
+
+      @keyframes crecer {
+        0% {
+          scale: 1;
+          opacity: 1;
+        }
+        100% {
+          scale: 3;
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container-letter">
+        <div class="cover"></div>
+        <span class="heart">♥</span>
+        <p class="paper" id="mainMessage">
+          ¿Quieres salir conmigo?<br />
+          Lugar: All rock<br />
+          Día: 20/06/2024
+        </p>
+        <div class="letter"></div>
+      </div>
+      <div class="options">
+        <button id="open">Abrir</button>
+        <button id="close">Cerrar</button>
+      </div>
+    </main>
+    <script>
+      const urlSearchParams = new URLSearchParams(window.location.search);
+
+      const messageCustom = urlSearchParams.get("message");
+
+      if (messageCustom) {
+        const mainMessageElement = document.querySelector("#mainMessage");
+        mainMessageElement.textContent = decodeURI(messageCustom);
+      }
+
+      // the tutorial starts here
+
+      const btnOpenElement = document.querySelector("#open");
+      const btnCloseElement = document.querySelector("#close");
+
+      btnCloseElement.disabled = true;
+
+      btnOpenElement.addEventListener("click", () => {
+        btnOpenElement.disabled = true;
+        btnCloseElement.disabled = false;
+        const coverElement = document.querySelector(".cover");
+        coverElement.classList.add("open-cover");
+
+        setTimeout(() => {
+          //
+          coverElement.style.zIndex = -1;
+
+          const paperElement = document.querySelector(".paper");
+          paperElement.classList.remove("close-paper");
+          paperElement.classList.add("open-paper");
+
+          // animacion del corazón
+          const heartElement = document.querySelector(".heart");
+          heartElement.style.display = "block";
+        }, 500);
+      });
+      btnCloseElement.addEventListener("click", () => {
+        btnOpenElement.disabled = false;
+        btnCloseElement.disabled = true;
+
+        const coverElement = document.querySelector(".cover");
+        const paperElement = document.querySelector(".paper");
+        paperElement.classList.remove("open-paper");
+        paperElement.classList.add("close-paper");
+
+        setTimeout(() => {
+          coverElement.style.zIndex = 0;
+          coverElement.classList.remove("open-cover");
+
+          // animacion del corazón
+          const heartElement = document.querySelector(".heart");
+          heartElement.style.display = "none";
+        }, 500);
+      });
+    </script>
+  </body>
 </html>
